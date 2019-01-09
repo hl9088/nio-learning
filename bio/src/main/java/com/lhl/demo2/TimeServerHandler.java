@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
-import java.util.Date;
 
 /**
  * Created by lihongli on 2019/1/8
@@ -28,12 +27,12 @@ public class TimeServerHandler implements Runnable {
             out.flush();
         } catch (Exception e) {
             e.printStackTrace();
+        }finally {
             try {
                 this.socket.close();
             } catch (IOException e1) {
                 e1.printStackTrace();
             }
-            this.socket = null;
         }
     }
 }

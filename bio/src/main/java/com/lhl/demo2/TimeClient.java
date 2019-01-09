@@ -5,6 +5,7 @@ import java.io.OutputStream;
 import java.net.Socket;
 
 /**
+ * 使用基础的InputStream OutputStream读取写入数据
  * Created by lihongli on 2019/1/8
  */
 public class TimeClient {
