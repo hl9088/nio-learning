@@ -1,4 +1,4 @@
-package com.lhl.demo2;
+package com.lhl.lineBasedFrameDecoder;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
